@@ -21,7 +21,7 @@ function Memo(props) {
     <div className="memo-container">
     <div className={'memo '+btn}>
       <div className="memo-box">
-        <p className="memo-tdg">🍚탄수화물🍚</p>
+        <p className="memo-tdg">🍚 탄수화물 🍚</p>
         <input className="memo-input" type="text" placeholder="오늘 먹은 탄수화물을 적어주세요!" onChange={(e) =>
           {
             setInput1(e.target.value);
@@ -29,7 +29,7 @@ function Memo(props) {
         }></input>
       </div>
       <div className="memo-box">
-        <p className="memo-tdg">🥩단백질🥩</p>
+        <p className="memo-tdg">🥩 단백질 🥩</p>
         <input className="memo-input" type="text" placeholder="오늘 먹은 단백질을 적어주세요!" onChange={(e) => 
           {
             setInput2(e.target.value);
@@ -37,7 +37,7 @@ function Memo(props) {
         }></input>
       </div>
       <div className="memo-box">
-        <p className="memo-tdg">🧀지방🧀</p>
+        <p className="memo-tdg">🧀 지방 🧀</p>
         <input className="memo-input" type="text" placeholder="오늘 먹은 지방을 적어주세요!" onChange={(e) => 
           {
             setInput3(e.target.value);
