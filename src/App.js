@@ -22,7 +22,7 @@ function Memo(props) {
     <div className={'memo '+btn}>
       <div className="memo-box">
         <p className="memo-tdg">🍚 탄수화물 🍚</p>
-        <input className="memo-input" type="text" placeholder="오늘 먹은 탄수화물을 적어주세요!" onChange={(e) =>
+        <input className="memo-input" type="text" placeholder="ex) 고구마, 현미 등" onChange={(e) =>
           {
             setInput1(e.target.value);
           }
@@ -30,7 +30,7 @@ function Memo(props) {
       </div>
       <div className="memo-box">
         <p className="memo-tdg">🥩 단백질 🥩</p>
-        <input className="memo-input" type="text" placeholder="오늘 먹은 단백질을 적어주세요!" onChange={(e) => 
+        <input className="memo-input" type="text" placeholder="ex) 닭가슴살, 콩 등" onChange={(e) => 
           {
             setInput2(e.target.value);
           }
@@ -38,7 +38,7 @@ function Memo(props) {
       </div>
       <div className="memo-box">
         <p className="memo-tdg">🧀 지방 🧀</p>
-        <input className="memo-input" type="text" placeholder="오늘 먹은 지방을 적어주세요!" onChange={(e) => 
+        <input className="memo-input" type="text" placeholder="ex) 치즈, 연어 등" onChange={(e) => 
           {
             setInput3(e.target.value);
           }
@@ -95,7 +95,7 @@ function Letter(props) {
     score3 = 30;
   }
   else if (c < 3) {
-    letter3 = "부족해요😫";
+    letter3 = "부족해요.😫";
     score3 = 0;
   }
   // 총 합계 --------
